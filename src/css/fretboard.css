@@ -1,0 +1,85 @@
+.fretboard {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 250px;
+   justify-content: space-evenly;
+   background: #996633;
+   border-bottom: 5px solid #777777;
+   border-top: 5px solid #777777;
+
+}
+
+.fretboard-wrapper {
+   border-radius: 3px;
+   border: 5px solid #777777;;
+   background: #cccccc;
+}
+
+.string-container {
+   width:100%;
+   height: 100%;
+   display: flex;
+   position: relative;
+}
+
+.string-image {
+   content: '';
+   position: absolute;
+   width: 100%;
+   top:48%;
+   background: linear-gradient(#eee, #999);
+   box-shadow: 0 2px 6px #666666;
+   z-index: 1;
+}
+
+.fret {
+   display: flex;
+   flex: 1;
+   border-right: 10px solid;
+   border-image: linear-gradient(to left, #777, #bbb, #777) 1 100%;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.zero-fret {
+   border-right: 20px solid;
+   background: peru;
+}
+
+.fret-highlighted {
+   display: flex;
+   width: 40px;
+   height: 40px;
+   margin: auto;
+   background: #17b069;
+   border-radius: 40px;
+   z-index: 2;
+   position: absolute;
+   opacity: .8;
+   box-shadow: 3px 3px 2px #555555;
+}
+
+.fret-highlighted:hover {
+   transform: scale(1.3);
+   transition: 0.1s;
+   cursor: pointer;
+}
+
+.root {
+   background: #006600;
+   opacity: .9;
+}
+
+.no-guitar-styling {
+   background: transparent;
+   border: transparent;
+}
+
+.note-symbol {
+   color: #FFFFFF;
+   z-index: 3;
+   margin: auto;
+   font-size: 1.3em;
+}

@@ -1,0 +1,16 @@
+.options-button {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #eeeeee;
+    position: fixed;
+    z-index: 10;
+    border-radius: 60px;
+    top:4vw;
+    right: 4vw;
+    border: 3px #666666 solid;
+}
+
+.options-button:active {
+    background: #FFFFFF;
+}

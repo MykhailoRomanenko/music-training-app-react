@@ -1,0 +1,55 @@
+
+.link-no-style {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+.link-no-style:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.footer{
+  margin-top: 20px;
+  padding: 20px 0 0 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+
+.footer-btn {
+  opacity: 0;
+
+}
+
+.footer-btn:hover {
+  transition: 1s;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.app {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-bottom: 150px;
+}
+
+.breadcrumb-item {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

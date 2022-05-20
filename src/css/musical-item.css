@@ -1,0 +1,14 @@
+.musical-item-card:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.musical-item-card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.musical-item-link {
+
+}
